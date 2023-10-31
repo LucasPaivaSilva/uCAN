@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=Borboleta B Pin=J8-5
+Removed Pin From Net: NetName=VCC3.3 Pin=J8-6
+Added Pin To Net: NetName=VCC3.3 Pin=J8-5
+Added Pin To Net: NetName=Borboleta B Pin=J8-6
+Added Room: Name=SheetPainel

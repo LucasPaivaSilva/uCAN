@@ -1,0 +1,130 @@
+Change Component Designator: OldDesignator=H? NewDesignator=H1
+Added Component: Designator=C1(CAP-DISC)
+Added Component: Designator=C2(CAP-DISC)
+Added Component: Designator=C3(CAP-DISC)
+Added Component: Designator=C4(CAP-DISC)
+Added Component: Designator=D1(CD1408-FU1800)
+Added Component: Designator=D2(CD1408-FU1800)
+Added Component: Designator=D3(CD1408-FU1800)
+Added Component: Designator=D4(CD1408-FU1800)
+Added Component: Designator=J1(MICRO-FIT 4x1 90° MOLEX)
+Added Component: Designator=J2(MICRO-FIT 4x1 90° MOLEX)
+Added Component: Designator=J3(MICRO-FIT 5x1 90° MOLEX)
+Added Component: Designator=J4(CAN3v3)
+Added Component: Designator=J5(MICRO-FIT 2X1 180° TE)
+Added Component: Designator=LM2596(LM2596)
+Added Component: Designator=R1(SMD1210R)
+Added Component: Designator=R2(SMD1210R)
+Added Component: Designator=R3(SMD1210R)
+Added Component: Designator=R4(SMD1210R)
+Added Component: Designator=R5(SMD1210R)
+Added Component: Designator=R6(SMD1210R)
+Added Component: Designator=R7(SMD1210R)
+Added Component: Designator=R8(SMD1210R)
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=GND Pin=D1-2
+Added Pin To Net: NetName=GND Pin=D2-2
+Added Pin To Net: NetName=GND Pin=D3-2
+Added Pin To Net: NetName=GND Pin=D4-2
+Added Pin To Net: NetName=GND Pin=J3-5
+Added Pin To Net: NetName=GND Pin=J4-2
+Added Pin To Net: NetName=GND Pin=LM2596-4
+Added Pin To Net: NetName=GND Pin=R2-1
+Added Pin To Net: NetName=GND Pin=R4-1
+Added Pin To Net: NetName=GND Pin=R6-1
+Added Pin To Net: NetName=GND Pin=R8-1
+Added Pin To Net: NetName=GND Pin=U1-15
+Added Pin To Net: NetName=Display_RX Pin=J3-3
+Added Pin To Net: NetName=Display_RX Pin=U1-10
+Added Net: Name=Display_RX
+Added Pin To Net: NetName=Display_TX Pin=J3-2
+Added Pin To Net: NetName=Display_TX Pin=U1-9
+Added Net: Name=Display_TX
+Added Pin To Net: NetName=Falha A Pin=J1-4
+Added Pin To Net: NetName=Falha A Pin=J2-1
+Added Pin To Net: NetName=Falha A Pin=R1-2
+Added Net: Name=Falha A
+Added Pin To Net: NetName=Falha B Pin=J1-3
+Added Pin To Net: NetName=Falha B Pin=J2-2
+Added Pin To Net: NetName=Falha B Pin=R3-2
+Added Net: Name=Falha B
+Added Pin To Net: NetName=Falha C Pin=J1-2
+Added Pin To Net: NetName=Falha C Pin=J2-3
+Added Pin To Net: NetName=Falha C Pin=R5-2
+Added Net: Name=Falha C
+Added Pin To Net: NetName=Falha D Pin=J1-1
+Added Pin To Net: NetName=Falha D Pin=J2-4
+Added Pin To Net: NetName=Falha D Pin=R7-2
+Added Net: Name=Falha D
+Added Pin To Net: NetName=FA Pin=C1-2
+Added Pin To Net: NetName=FA Pin=D1-1
+Added Pin To Net: NetName=FA Pin=R1-1
+Added Pin To Net: NetName=FA Pin=R2-2
+Added Pin To Net: NetName=FA Pin=U1-4
+Added Net: Name=FA
+Added Pin To Net: NetName=FB Pin=C2-2
+Added Pin To Net: NetName=FB Pin=D2-1
+Added Pin To Net: NetName=FB Pin=R3-1
+Added Pin To Net: NetName=FB Pin=R4-2
+Added Pin To Net: NetName=FB Pin=U1-5
+Added Net: Name=FB
+Added Pin To Net: NetName=FC Pin=C3-2
+Added Pin To Net: NetName=FC Pin=D3-1
+Added Pin To Net: NetName=FC Pin=R5-1
+Added Pin To Net: NetName=FC Pin=R6-2
+Added Pin To Net: NetName=FC Pin=U1-6
+Added Net: Name=FC
+Added Pin To Net: NetName=FD Pin=C4-2
+Added Pin To Net: NetName=FD Pin=D4-1
+Added Pin To Net: NetName=FD Pin=R7-1
+Added Pin To Net: NetName=FD Pin=R8-2
+Added Pin To Net: NetName=FD Pin=U1-7
+Added Net: Name=FD
+Added Pin To Net: NetName=NetJ4_5 Pin=J4-5
+Added Pin To Net: NetName=NetJ4_5 Pin=J5-1
+Added Net: Name=NetJ4_5
+Added Pin To Net: NetName=NetJ4_6 Pin=J4-6
+Added Pin To Net: NetName=NetJ4_6 Pin=J5-2
+Added Net: Name=NetJ4_6
+Added Pin To Net: NetName=RST_Display Pin=J3-4
+Added Pin To Net: NetName=RST_Display Pin=U1-26
+Added Net: Name=RST_Display
+Added Pin To Net: NetName=RX2 Pin=J4-4
+Added Pin To Net: NetName=RX2 Pin=U1-27
+Added Net: Name=RX2
+Added Pin To Net: NetName=TX2 Pin=J4-3
+Added Pin To Net: NetName=TX2 Pin=U1-28
+Added Net: Name=TX2
+Added Pin To Net: NetName=VCC3.3 Pin=J4-1
+Added Pin To Net: NetName=VCC3.3 Pin=U1-2
+Added Net: Name=VCC3.3
+Added Pin To Net: NetName=VCC5 Pin=J3-1
+Added Pin To Net: NetName=VCC5 Pin=LM2596-3
+Added Net: Name=VCC5
+Added Member To Class: ClassName=SheetPainel Member=Component C1 1nF
+Added Member To Class: ClassName=SheetPainel Member=Component C2 1nF
+Added Member To Class: ClassName=SheetPainel Member=Component C3 1nF
+Added Member To Class: ClassName=SheetPainel Member=Component C4 1nF
+Added Member To Class: ClassName=SheetPainel Member=Component D1 Zener 3.3
+Added Member To Class: ClassName=SheetPainel Member=Component D2 Zener 3.3
+Added Member To Class: ClassName=SheetPainel Member=Component D3 Zener 3.3
+Added Member To Class: ClassName=SheetPainel Member=Component D4 Zener 3.3
+Added Member To Class: ClassName=SheetPainel Member=Component H1 Prog/Debug
+Added Member To Class: ClassName=SheetPainel Member=Component J1 Falhas In
+Added Member To Class: ClassName=SheetPainel Member=Component J2 Falhas Out
+Added Member To Class: ClassName=SheetPainel Member=Component J3 Display
+Added Member To Class: ClassName=SheetPainel Member=Component J4 CAN 3.3V
+Added Member To Class: ClassName=SheetPainel Member=Component J5 Conector CAN
+Added Member To Class: ClassName=SheetPainel Member=Component LM2596
+Added Member To Class: ClassName=SheetPainel Member=Component R1 10k
+Added Member To Class: ClassName=SheetPainel Member=Component R2 3k9
+Added Member To Class: ClassName=SheetPainel Member=Component R3 10k
+Added Member To Class: ClassName=SheetPainel Member=Component R4 3k9
+Added Member To Class: ClassName=SheetPainel Member=Component R5 10k
+Added Member To Class: ClassName=SheetPainel Member=Component R6 3k9
+Added Member To Class: ClassName=SheetPainel Member=Component R7 10k
+Added Member To Class: ClassName=SheetPainel Member=Component R8 3k9
+Added Room: Name=SheetPainel

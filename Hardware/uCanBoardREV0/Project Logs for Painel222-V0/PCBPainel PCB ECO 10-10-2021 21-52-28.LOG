@@ -1,0 +1,29 @@
+Removed Pin From Net: NetName=GND Pin=J1-5
+Removed Pin From Net: NetName=GND Pin=J1-6
+Removed Pin From Net: NetName=GND Pin=J1-7
+Removed Pin From Net: NetName=GND Pin=J1-8
+Added Component: Designator=R13(SMD1210R)
+Added Component: Designator=R14(SMD1210R)
+Added Component: Designator=R15(SMD1210R)
+Added Component: Designator=R16(SMD1210R)
+Added Pin To Net: NetName=GND Pin=R13-2
+Added Pin To Net: NetName=GND Pin=R14-2
+Added Pin To Net: NetName=GND Pin=R15-2
+Added Pin To Net: NetName=GND Pin=R16-2
+Added Pin To Net: NetName=NetJ1_5 Pin=J1-5
+Added Pin To Net: NetName=NetJ1_5 Pin=R16-1
+Added Net: Name=NetJ1_5
+Added Pin To Net: NetName=NetJ1_6 Pin=J1-6
+Added Pin To Net: NetName=NetJ1_6 Pin=R15-1
+Added Net: Name=NetJ1_6
+Added Pin To Net: NetName=NetJ1_7 Pin=J1-7
+Added Pin To Net: NetName=NetJ1_7 Pin=R14-1
+Added Net: Name=NetJ1_7
+Added Pin To Net: NetName=NetJ1_8 Pin=J1-8
+Added Pin To Net: NetName=NetJ1_8 Pin=R13-1
+Added Net: Name=NetJ1_8
+Added Member To Class: ClassName=SheetPainel Member=Component R13 Valor
+Added Member To Class: ClassName=SheetPainel Member=Component R14 Valor
+Added Member To Class: ClassName=SheetPainel Member=Component R15 Valor
+Added Member To Class: ClassName=SheetPainel Member=Component R16 Valor
+Added Room: Name=SheetPainel

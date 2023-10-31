@@ -1,0 +1,9 @@
+Added Component: Designator=J10(MICRO-FIT 2x2 180º TE)
+Added Component: Designator=J11(MICRO-FIT 2x2 180º TE)
+Added Pin To Net: NetName=Falha A Pin=J11-1
+Added Pin To Net: NetName=Falha A Pin=J11-2
+Added Pin To Net: NetName=Falha A Pin=J11-3
+Added Pin To Net: NetName=Falha A Pin=J11-4
+Added Member To Class: ClassName=SheetPainel Member=Component J10 MicroFit DR 2x2
+Added Member To Class: ClassName=SheetPainel Member=Component J11 MicroFit DR 2x2
+Added Room: Name=SheetPainel

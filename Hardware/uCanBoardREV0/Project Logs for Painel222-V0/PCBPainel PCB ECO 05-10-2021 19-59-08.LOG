@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=Falha D Pin=J1-1
+Removed Pin From Net: NetName=Falha C Pin=J1-2
+Removed Pin From Net: NetName=Falha B Pin=J1-3
+Removed Pin From Net: NetName=Falha A Pin=J1-4
+Removed Pin From Net: NetName=Falha A Pin=J2-1
+Removed Pin From Net: NetName=Falha B Pin=J2-2
+Removed Pin From Net: NetName=Falha C Pin=J2-3
+Removed Pin From Net: NetName=Falha D Pin=J2-4
+Removed Member From Class: ClassName=SheetPainel Member=J2
+Change Component Footprint: Designator=J1 Old Footprint=MICRO-FIT 4x1 90° MOLEX New Footprint=MICRO-FIT 4X2 180° TE
+Change Component Comment : Designator=J1 Old Comment=Falhas In New Comment=MicroFit DR 4x2
+Added Pin To Net: NetName=Falha A Pin=J1-1
+Added Pin To Net: NetName=Falha B Pin=J1-2
+Added Pin To Net: NetName=Falha C Pin=J1-3
+Added Pin To Net: NetName=Falha D Pin=J1-4
+Added Pin To Net: NetName=Falha D Pin=J1-5
+Added Pin To Net: NetName=Falha C Pin=J1-6
+Added Pin To Net: NetName=Falha B Pin=J1-7
+Added Pin To Net: NetName=Falha A Pin=J1-8
+Added Member To Class: ClassName=SheetPainel Member=Component C1 CAP_SMD
+Added Member To Class: ClassName=SheetPainel Member=Component C2 CAP_SMD
+Added Member To Class: ClassName=SheetPainel Member=Component C3 CAP_SMD
+Added Member To Class: ClassName=SheetPainel Member=Component J4 Display
+Added Member To Class: ClassName=SheetPainel Member=Component J6 CAN 3.3V
+Added Member To Class: ClassName=SheetPainel Member=Component J7 Conector CAN
+Added Member To Class: ClassName=SheetPainel Member=Component J8 MicroFit DR 3x2
+Added Member To Class: ClassName=SheetPainel Member=Component J9 MicroFit SR 5x1
+Added Room: Name=SheetPainel

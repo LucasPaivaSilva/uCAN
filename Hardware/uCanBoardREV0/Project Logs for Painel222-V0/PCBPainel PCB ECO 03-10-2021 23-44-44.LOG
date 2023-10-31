@@ -1,0 +1,56 @@
+Added Component: Designator=J6(MICRO-FIT 3x2 180º MULT)
+Added Component: Designator=J7(MICRO-FIT 5x1 90° MOLEX)
+Added Component: Designator=J8(MICRO-FIT 2X1 180° TE)
+Added Component: Designator=J9(MICRO-FIT 3x2 180º MULT)
+Added Component: Designator=Regulador 3v3(DPAK - TO-252)
+Added Pin To Net: NetName=VCC3.3 Pin=J6-1
+Added Pin To Net: NetName=GND Pin=J6-3
+Added Pin To Net: NetName=GND Pin=J6-4
+Added Pin To Net: NetName=VCC3.3 Pin=J6-6
+Added Pin To Net: NetName=VCC3.3 Pin=J7-1
+Added Pin To Net: NetName=GND Pin=J7-5
+Added Pin To Net: NetName=GND Pin=J8-2
+Added Pin To Net: NetName=GND Pin=J9-6
+Added Pin To Net: NetName=GND Pin=LM2596-2
+Added Pin To Net: NetName=GND Pin=Regulador 3v3-1
+Added Pin To Net: NetName=VCC3.3 Pin=Regulador 3v3-2
+Added Pin To Net: NetName=VCC5 Pin=Regulador 3v3-3
+Added Pin To Net: NetName=Borboleta A Pin=J6-2
+Added Pin To Net: NetName=Borboleta A Pin=U1-24
+Added Net: Name=Borboleta A
+Added Pin To Net: NetName=Borboleta B Pin=J6-5
+Added Pin To Net: NetName=Borboleta B Pin=U1-23
+Added Net: Name=Borboleta B
+Added Pin To Net: NetName=Encoder_A Pin=J7-3
+Added Pin To Net: NetName=Encoder_A Pin=U1-11
+Added Net: Name=Encoder_A
+Added Pin To Net: NetName=Encoder_B Pin=J7-4
+Added Pin To Net: NetName=Encoder_B Pin=U1-12
+Added Net: Name=Encoder_B
+Added Pin To Net: NetName=Encoder_Button Pin=J7-2
+Added Pin To Net: NetName=Encoder_Button Pin=U1-8
+Added Net: Name=Encoder_Button
+Added Pin To Net: NetName=NetJ8_1 Pin=J8-1
+Added Pin To Net: NetName=NetJ8_1 Pin=LM2596-1
+Added Net: Name=NetJ8_1
+Added Pin To Net: NetName=Selector 1 Pin=J9-1
+Added Pin To Net: NetName=Selector 1 Pin=U1-37
+Added Net: Name=Selector 1
+Added Pin To Net: NetName=Selector 2 Pin=J9-2
+Added Pin To Net: NetName=Selector 2 Pin=U1-36
+Added Net: Name=Selector 2
+Added Pin To Net: NetName=Selector 3 Pin=J9-3
+Added Pin To Net: NetName=Selector 3 Pin=U1-33
+Added Net: Name=Selector 3
+Added Pin To Net: NetName=Selector 4 Pin=J9-4
+Added Pin To Net: NetName=Selector 4 Pin=U1-31
+Added Net: Name=Selector 4
+Added Pin To Net: NetName=Selector 5 Pin=J9-5
+Added Pin To Net: NetName=Selector 5 Pin=U1-30
+Added Net: Name=Selector 5
+Added Member To Class: ClassName=SheetPainel Member=Component J6 MicroFit DR 3x2
+Added Member To Class: ClassName=SheetPainel Member=Component J7 MicroFit SR 5x1
+Added Member To Class: ClassName=SheetPainel Member=Component J8 LV Input
+Added Member To Class: ClassName=SheetPainel Member=Component J9 MicroFit DR 3x2
+Added Member To Class: ClassName=SheetPainel Member=Component Regulador 3v3 78XX
+Added Room: Name=SheetPainel

@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=Falha A Pin=J1-5
+Removed Pin From Net: NetName=Falha B Pin=J1-6
+Removed Pin From Net: NetName=Falha C Pin=J1-7
+Removed Pin From Net: NetName=Falha D Pin=J1-8
+Change Component Designator: OldDesignator=32 NewDesignator=I3
+Change Component Designator: OldDesignator=Boot NewDesignator=PB1
+Change Component Designator: OldDesignator=Reset NewDesignator=PB2
+Added Component: Designator=J10(MICRO-FIT 4x1 90° MOLEX)
+Added Pin To Net: NetName=GND Pin=J1-5
+Added Pin To Net: NetName=GND Pin=J1-6
+Added Pin To Net: NetName=GND Pin=J1-7
+Added Pin To Net: NetName=GND Pin=J1-8
+Added Pin To Net: NetName=Falha A Pin=J10-1
+Added Pin To Net: NetName=Falha B Pin=J10-2
+Added Pin To Net: NetName=Falha C Pin=J10-3
+Added Pin To Net: NetName=Falha D Pin=J10-4
+Added Member To Class: ClassName=SheetPainel Member=Component J10 MicroFit SR 4x1
+Added Room: Name=SheetPainel

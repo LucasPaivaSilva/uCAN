@@ -1,0 +1,35 @@
+Change Component Designator: OldDesignator=U? NewDesignator=U1
+Added Component: Designator=H?(Pin Header 1x4 TH Pitch 2.54mm)
+Added Pin To Net: NetName=GND Pin=H?-4
+Added Pin To Net: NetName=GND Pin=U1-1
+Added Pin To Net: NetName=GND Pin=U1-38
+Added Pin To Net: NetName=GND Pin=U1-39
+Added Net: Name=GND
+Added Pin To Net: NetName=IO0 Pin=U1-25
+Added Net: Name=IO0
+Added Pin To Net: NetName=IO4 Pin=U1-26
+Added Net: Name=IO4
+Added Pin To Net: NetName=IO5 Pin=U1-29
+Added Net: Name=IO5
+Added Pin To Net: NetName=IO16 Pin=U1-27
+Added Net: Name=IO16
+Added Pin To Net: NetName=IO17 Pin=U1-28
+Added Net: Name=IO17
+Added Pin To Net: NetName=IO18 Pin=U1-30
+Added Net: Name=IO18
+Added Pin To Net: NetName=IO19 Pin=U1-31
+Added Net: Name=IO19
+Added Pin To Net: NetName=IO21 Pin=U1-33
+Added Net: Name=IO21
+Added Pin To Net: NetName=IO22 Pin=U1-36
+Added Net: Name=IO22
+Added Pin To Net: NetName=IO23 Pin=U1-37
+Added Net: Name=IO23
+Added Pin To Net: NetName=RX0 Pin=H?-2
+Added Pin To Net: NetName=RX0 Pin=U1-34
+Added Net: Name=RX0
+Added Pin To Net: NetName=TX0 Pin=H?-3
+Added Pin To Net: NetName=TX0 Pin=U1-35
+Added Net: Name=TX0
+Added Member To Class: ClassName=SheetPainel Member=Component H? Prog/Debug
+Added Room: Name=SheetPainel

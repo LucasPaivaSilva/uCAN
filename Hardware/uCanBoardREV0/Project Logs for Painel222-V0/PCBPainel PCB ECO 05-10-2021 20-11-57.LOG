@@ -1,0 +1,347 @@
+Added Component: Designator=C1(CAP0805R)
+Add component (AddParameter): Name = "Code_IPC"; Value = "3216 [1206]"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Code_JEITA"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.kemet.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.kemet.com/kemet/web/homepage/kechome.nsf/vapubfilesname/F3102TA.pdf/$file/F3102TA.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetDocument"; Value = "Mar-2001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "19-Mar-2004"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Silkscreen size reduced."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDocument"; Value = "Mar-2001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Added Component: Designator=C2(CAP0805R)
+Add component (AddParameter): Name = "Code_IPC"; Value = "3216 [1206]"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Code_JEITA"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.kemet.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.kemet.com/kemet/web/homepage/kechome.nsf/vapubfilesname/F3102TA.pdf/$file/F3102TA.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetDocument"; Value = "Mar-2001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "19-Mar-2004"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Silkscreen size reduced."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDocument"; Value = "Mar-2001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Added Component: Designator=C3(CAP0805R)
+Add component (AddParameter): Name = "Code_IPC"; Value = "3216 [1206]"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Code_JEITA"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.kemet.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.kemet.com/kemet/web/homepage/kechome.nsf/vapubfilesname/F3102TA.pdf/$file/F3102TA.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetDocument"; Value = "Mar-2001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "19-Mar-2004"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Silkscreen size reduced."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDocument"; Value = "Mar-2001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Added Component: Designator=C4(SMD1210C)
+Added Component: Designator=C5(SMD1210C)
+Added Component: Designator=C6(SMD1210C)
+Added Component: Designator=C7(SMD1210C)
+Added Component: Designator=C9(CAP0805R)
+Add component (AddParameter): Name = "Code_IPC"; Value = "3216 [1206]"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Code_JEITA"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.kemet.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.kemet.com/kemet/web/homepage/kechome.nsf/vapubfilesname/F3102TA.pdf/$file/F3102TA.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetDocument"; Value = "Mar-2001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "19-Mar-2004"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Silkscreen size reduced."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDocument"; Value = "Mar-2001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Added Component: Designator=D1(CD1408-FU1800)
+Added Component: Designator=D2(CD1408-FU1800)
+Added Component: Designator=D3(CD1408-FU1800)
+Added Component: Designator=D4(CD1408-FU1800)
+Added Component: Designator=D5(1206_LED)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.osram-os.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://catalog.osram-os.com/catalogue/catalogue.do;jsessionid=AD571800CED0208623E7FAFDF556DB1C?act=downloadFile&favOid=020000030001e106000200b6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Mar-2007"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "White LED; 2 Reverse Gullwing Leads, Body 1.9 x 0.875mm (Dia.xH)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "LWP4SG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Mar-2007"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PCB_Layout"; Value = "Complies with manufacturer's recommendation."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "14-Mar-2008"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=D6(1206_LED)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.osram-os.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://catalog.osram-os.com/catalogue/catalogue.do;jsessionid=AD571800CED0208623E7FAFDF556DB1C?act=downloadFile&favOid=020000030001e106000200b6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Mar-2007"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "White LED; 2 Reverse Gullwing Leads, Body 1.9 x 0.875mm (Dia.xH)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "LWP4SG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Mar-2007"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PCB_Layout"; Value = "Complies with manufacturer's recommendation."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "14-Mar-2008"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=D7(1206_LED)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.osram-os.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://catalog.osram-os.com/catalogue/catalogue.do;jsessionid=AD571800CED0208623E7FAFDF556DB1C?act=downloadFile&favOid=020000030001e106000200b6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Mar-2007"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "White LED; 2 Reverse Gullwing Leads, Body 1.9 x 0.875mm (Dia.xH)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "LWP4SG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Mar-2007"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PCB_Layout"; Value = "Complies with manufacturer's recommendation."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "14-Mar-2008"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=H1(Pin Header 1x4 TH Pitch 2.54mm)
+Added Component: Designator=H?(Pin Header 1x5 TH Pitch 2.54mm)
+Added Component: Designator=J1(MICRO-FIT 4X2 180° TE)
+Added Component: Designator=J3(MICRO-FIT 2X1 180° TE)
+Added Component: Designator=J4(MICRO-FIT 5x1 90° MOLEX)
+Added Component: Designator=J5(MICRO-FIT 3x2 180º MULT)
+Added Component: Designator=J6(CAN3v3)
+Added Component: Designator=J7(MICRO-FIT 2X1 180° TE)
+Added Component: Designator=J8(MICRO-FIT 3x2 180º MULT)
+Added Component: Designator=J9(MICRO-FIT 5x1 90° MOLEX)
+Added Component: Designator=LM1(LM2596)
+Added Component: Designator=PB1(TACTILE-6X6)
+Added Component: Designator=PB2(TACTILE-6X6)
+Added Component: Designator=R1(SMD1210R)
+Added Component: Designator=R2(SMD1210R)
+Added Component: Designator=R3(SMD1210R)
+Added Component: Designator=R4(SMD1210R)
+Added Component: Designator=R5(SMD1210R)
+Added Component: Designator=R6(SMD1210R)
+Added Component: Designator=R7(SMD1210R)
+Added Component: Designator=R8(SMD1210R)
+Added Component: Designator=R9(RES0805R)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "220R"; VariantName = "[No Variations]"
+Added Component: Designator=R10(RES0805R)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "220R"; VariantName = "[No Variations]"
+Added Component: Designator=R11(RES0805R)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "220R"; VariantName = "[No Variations]"
+Added Component: Designator=R12(RES0805R)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=Regulador 3.3(DPAK - TO-252)
+Added Component: Designator=U1(ESP32WROOM)
+Added Pin To Net: NetName=Borboleta A Pin=J8-2
+Added Pin To Net: NetName=Borboleta A Pin=U1-24
+Added Net: Name=Borboleta A
+Added Pin To Net: NetName=Borboleta B Pin=J8-5
+Added Pin To Net: NetName=Borboleta B Pin=U1-23
+Added Net: Name=Borboleta B
+Added Pin To Net: NetName=DebugLed Pin=R11-1
+Added Pin To Net: NetName=DebugLed Pin=U1-14
+Added Net: Name=DebugLed
+Added Pin To Net: NetName=Display_RX Pin=J4-3
+Added Pin To Net: NetName=Display_RX Pin=U1-10
+Added Net: Name=Display_RX
+Added Pin To Net: NetName=Display_TX Pin=J4-2
+Added Pin To Net: NetName=Display_TX Pin=U1-9
+Added Net: Name=Display_TX
+Added Pin To Net: NetName=Encoder_A Pin=J9-3
+Added Pin To Net: NetName=Encoder_A Pin=U1-11
+Added Net: Name=Encoder_A
+Added Pin To Net: NetName=Encoder_B Pin=J9-4
+Added Pin To Net: NetName=Encoder_B Pin=U1-12
+Added Net: Name=Encoder_B
+Added Pin To Net: NetName=Encoder_Button Pin=J9-2
+Added Pin To Net: NetName=Encoder_Button Pin=U1-8
+Added Net: Name=Encoder_Button
+Added Pin To Net: NetName=ESP_EN Pin=C9-2
+Added Pin To Net: NetName=ESP_EN Pin=PB2-1
+Added Pin To Net: NetName=ESP_EN Pin=R12-1
+Added Pin To Net: NetName=ESP_EN Pin=U1-3
+Added Net: Name=ESP_EN
+Added Pin To Net: NetName=Extra 1 Pin=H?-1
+Added Pin To Net: NetName=Extra 1 Pin=U1-13
+Added Net: Name=Extra 1
+Added Pin To Net: NetName=Extra 2 Pin=H?-2
+Added Pin To Net: NetName=Extra 2 Pin=U1-29
+Added Net: Name=Extra 2
+Added Pin To Net: NetName=Extra 3 Pin=H?-3
+Added Pin To Net: NetName=Extra 3 Pin=U1-16
+Added Net: Name=Extra 3
+Added Pin To Net: NetName=Falha A Pin=J1-1
+Added Pin To Net: NetName=Falha A Pin=J1-8
+Added Pin To Net: NetName=Falha A Pin=R1-2
+Added Net: Name=Falha A
+Added Pin To Net: NetName=Falha B Pin=J1-2
+Added Pin To Net: NetName=Falha B Pin=J1-7
+Added Pin To Net: NetName=Falha B Pin=R3-2
+Added Net: Name=Falha B
+Added Pin To Net: NetName=Falha C Pin=J1-3
+Added Pin To Net: NetName=Falha C Pin=J1-6
+Added Pin To Net: NetName=Falha C Pin=R5-2
+Added Net: Name=Falha C
+Added Pin To Net: NetName=Falha D Pin=J1-4
+Added Pin To Net: NetName=Falha D Pin=J1-5
+Added Pin To Net: NetName=Falha D Pin=R7-2
+Added Net: Name=Falha D
+Added Pin To Net: NetName=FA Pin=C4-2
+Added Pin To Net: NetName=FA Pin=D1-1
+Added Pin To Net: NetName=FA Pin=R1-1
+Added Pin To Net: NetName=FA Pin=R2-2
+Added Pin To Net: NetName=FA Pin=U1-4
+Added Net: Name=FA
+Added Pin To Net: NetName=FB Pin=C5-2
+Added Pin To Net: NetName=FB Pin=D2-1
+Added Pin To Net: NetName=FB Pin=R3-1
+Added Pin To Net: NetName=FB Pin=R4-2
+Added Pin To Net: NetName=FB Pin=U1-5
+Added Net: Name=FB
+Added Pin To Net: NetName=FC Pin=C6-2
+Added Pin To Net: NetName=FC Pin=D3-1
+Added Pin To Net: NetName=FC Pin=R5-1
+Added Pin To Net: NetName=FC Pin=R6-2
+Added Pin To Net: NetName=FC Pin=U1-6
+Added Net: Name=FC
+Added Pin To Net: NetName=FD Pin=C7-2
+Added Pin To Net: NetName=FD Pin=D4-1
+Added Pin To Net: NetName=FD Pin=R7-1
+Added Pin To Net: NetName=FD Pin=R8-2
+Added Pin To Net: NetName=FD Pin=U1-7
+Added Net: Name=FD
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C7-1
+Added Pin To Net: NetName=GND Pin=C9-1
+Added Pin To Net: NetName=GND Pin=D1-2
+Added Pin To Net: NetName=GND Pin=D2-2
+Added Pin To Net: NetName=GND Pin=D3-2
+Added Pin To Net: NetName=GND Pin=D4-2
+Added Pin To Net: NetName=GND Pin=D5-K
+Added Pin To Net: NetName=GND Pin=D6-K
+Added Pin To Net: NetName=GND Pin=D7-K
+Added Pin To Net: NetName=GND Pin=H1-4
+Added Pin To Net: NetName=GND Pin=H?-5
+Added Pin To Net: NetName=GND Pin=J3-2
+Added Pin To Net: NetName=GND Pin=J4-5
+Added Pin To Net: NetName=GND Pin=J5-6
+Added Pin To Net: NetName=GND Pin=J6-2
+Added Pin To Net: NetName=GND Pin=J8-3
+Added Pin To Net: NetName=GND Pin=J8-4
+Added Pin To Net: NetName=GND Pin=J9-5
+Added Pin To Net: NetName=GND Pin=LM1-2
+Added Pin To Net: NetName=GND Pin=LM1-4
+Added Pin To Net: NetName=GND Pin=PB1-2
+Added Pin To Net: NetName=GND Pin=PB2-2
+Added Pin To Net: NetName=GND Pin=R2-1
+Added Pin To Net: NetName=GND Pin=R4-1
+Added Pin To Net: NetName=GND Pin=R6-1
+Added Pin To Net: NetName=GND Pin=R8-1
+Added Pin To Net: NetName=GND Pin=Regulador 3.3-1
+Added Pin To Net: NetName=GND Pin=U1-1
+Added Pin To Net: NetName=GND Pin=U1-15
+Added Pin To Net: NetName=GND Pin=U1-38
+Added Pin To Net: NetName=GND Pin=U1-39
+Added Net: Name=GND
+Added Pin To Net: NetName=IO0 Pin=PB1-1
+Added Pin To Net: NetName=IO0 Pin=U1-25
+Added Net: Name=IO0
+Added Pin To Net: NetName=NetD5_A Pin=D5-A
+Added Pin To Net: NetName=NetD5_A Pin=R9-2
+Added Net: Name=NetD5_A
+Added Pin To Net: NetName=NetD6_A Pin=D6-A
+Added Pin To Net: NetName=NetD6_A Pin=R10-2
+Added Net: Name=NetD6_A
+Added Pin To Net: NetName=NetD7_A Pin=D7-A
+Added Pin To Net: NetName=NetD7_A Pin=R11-2
+Added Net: Name=NetD7_A
+Added Pin To Net: NetName=NetJ3_1 Pin=J3-1
+Added Pin To Net: NetName=NetJ3_1 Pin=LM1-1
+Added Net: Name=NetJ3_1
+Added Pin To Net: NetName=NetJ6_5 Pin=J6-5
+Added Pin To Net: NetName=NetJ6_5 Pin=J7-1
+Added Net: Name=NetJ6_5
+Added Pin To Net: NetName=NetJ6_6 Pin=J6-6
+Added Pin To Net: NetName=NetJ6_6 Pin=J7-2
+Added Net: Name=NetJ6_6
+Added Pin To Net: NetName=RST_Display Pin=J4-4
+Added Pin To Net: NetName=RST_Display Pin=U1-26
+Added Net: Name=RST_Display
+Added Pin To Net: NetName=RX0 Pin=H1-2
+Added Pin To Net: NetName=RX0 Pin=U1-34
+Added Net: Name=RX0
+Added Pin To Net: NetName=RX2 Pin=J6-4
+Added Pin To Net: NetName=RX2 Pin=U1-27
+Added Net: Name=RX2
+Added Pin To Net: NetName=Selector 1 Pin=J5-1
+Added Pin To Net: NetName=Selector 1 Pin=U1-37
+Added Net: Name=Selector 1
+Added Pin To Net: NetName=Selector 2 Pin=J5-2
+Added Pin To Net: NetName=Selector 2 Pin=U1-36
+Added Net: Name=Selector 2
+Added Pin To Net: NetName=Selector 3 Pin=J5-3
+Added Pin To Net: NetName=Selector 3 Pin=U1-33
+Added Net: Name=Selector 3
+Added Pin To Net: NetName=Selector 4 Pin=J5-4
+Added Pin To Net: NetName=Selector 4 Pin=U1-31
+Added Net: Name=Selector 4
+Added Pin To Net: NetName=Selector 5 Pin=J5-5
+Added Pin To Net: NetName=Selector 5 Pin=U1-30
+Added Net: Name=Selector 5
+Added Pin To Net: NetName=TX0 Pin=H1-3
+Added Pin To Net: NetName=TX0 Pin=U1-35
+Added Net: Name=TX0
+Added Pin To Net: NetName=TX2 Pin=J6-3
+Added Pin To Net: NetName=TX2 Pin=U1-28
+Added Net: Name=TX2
+Added Pin To Net: NetName=VCC3.3 Pin=C1-2
+Added Pin To Net: NetName=VCC3.3 Pin=C2-2
+Added Pin To Net: NetName=VCC3.3 Pin=C3-2
+Added Pin To Net: NetName=VCC3.3 Pin=H1-1
+Added Pin To Net: NetName=VCC3.3 Pin=H?-4
+Added Pin To Net: NetName=VCC3.3 Pin=J6-1
+Added Pin To Net: NetName=VCC3.3 Pin=J8-1
+Added Pin To Net: NetName=VCC3.3 Pin=J8-6
+Added Pin To Net: NetName=VCC3.3 Pin=J9-1
+Added Pin To Net: NetName=VCC3.3 Pin=R10-1
+Added Pin To Net: NetName=VCC3.3 Pin=R12-2
+Added Pin To Net: NetName=VCC3.3 Pin=Regulador 3.3-2
+Added Pin To Net: NetName=VCC3.3 Pin=U1-2
+Added Net: Name=VCC3.3
+Added Pin To Net: NetName=VCC5 Pin=J4-1
+Added Pin To Net: NetName=VCC5 Pin=LM1-3
+Added Pin To Net: NetName=VCC5 Pin=R9-1
+Added Pin To Net: NetName=VCC5 Pin=Regulador 3.3-3
+Added Net: Name=VCC5
+Added Class: Name=SheetPainel
+Added Room: Name=SheetPainel

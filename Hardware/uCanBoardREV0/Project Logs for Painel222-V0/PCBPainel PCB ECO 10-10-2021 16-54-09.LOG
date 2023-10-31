@@ -1,0 +1,9 @@
+Added Component: Designator=I1(CARROAMPERA)
+Added Component: Designator=I2(LOGO AMPERA)
+Added Component: Designator=I3(LOGO CIRCUIBRAS)
+Added Component: Designator=I4(LOGO UFSC)
+Added Member To Class: ClassName=SheetPainel Member=Component I1 Imagens
+Added Member To Class: ClassName=SheetPainel Member=Component I2 Imagens
+Added Member To Class: ClassName=SheetPainel Member=Component I3 Imagens
+Added Member To Class: ClassName=SheetPainel Member=Component I4 Imagens
+Added Room: Name=SheetPainel

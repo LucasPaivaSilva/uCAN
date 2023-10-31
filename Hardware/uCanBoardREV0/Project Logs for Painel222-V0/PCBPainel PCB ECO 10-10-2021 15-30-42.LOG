@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=Falha D Pin=J1-5
+Removed Pin From Net: NetName=Falha C Pin=J1-6
+Removed Pin From Net: NetName=Falha B Pin=J1-7
+Removed Pin From Net: NetName=Falha A Pin=J1-8
+Added Pin To Net: NetName=Falha A Pin=J1-5
+Added Pin To Net: NetName=Falha B Pin=J1-6
+Added Pin To Net: NetName=Falha C Pin=J1-7
+Added Pin To Net: NetName=Falha D Pin=J1-8
+Added Room: Name=SheetPainel

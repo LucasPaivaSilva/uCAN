@@ -1,0 +1,10 @@
+Board Information Report
+Filename     : \\Mac\Home\Documents\GitHub\AMP-221-Panel\Hardware\AltiumPCB\Painel222-V0\PCBPainel.PcbDoc
+Date         : 09/10/2021
+Time         : 11:50:02
+Time Elapsed : 00:00:00
+
+General
+    Board Size, 3880milsx2200mils
+    Components on board, 42
+count : 2

@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=Encoder_A Pin=J9-2
+Added Pin To Net: NetName=Encoder_A Pin=J9-5
+Added Room: Name=SheetPainel

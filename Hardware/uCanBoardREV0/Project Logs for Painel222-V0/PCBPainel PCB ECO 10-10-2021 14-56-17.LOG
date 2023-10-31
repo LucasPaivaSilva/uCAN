@@ -1,0 +1,21 @@
+Change Component Footprint: Designator=C1 Old Footprint=CAP0805R New Footprint=SMD0805C
+Change Component Footprint: Designator=C2 Old Footprint=CAP0805R New Footprint=SMD0805C
+Change Component Footprint: Designator=C3 Old Footprint=CAP0805R New Footprint=SMD0805C
+Change Component Footprint: Designator=C9 Old Footprint=CAP0805R New Footprint=SMD0805C
+Change Component Footprint: Designator=C4 Old Footprint=SMD1210C New Footprint=SMD0805C
+Change Component Footprint: Designator=C5 Old Footprint=SMD1210C New Footprint=SMD0805C
+Change Component Footprint: Designator=C6 Old Footprint=SMD1210C New Footprint=SMD0805C
+Change Component Footprint: Designator=C7 Old Footprint=SMD1210C New Footprint=SMD0805C
+Change Component Comment : Designator=C4 Old Comment=1nF New Comment=Valor
+Change Component Comment : Designator=C5 Old Comment=1nF New Comment=Valor
+Change Component Comment : Designator=C6 Old Comment=1nF New Comment=Valor
+Change Component Comment : Designator=C7 Old Comment=1nF New Comment=Valor
+Change Component Comment : Designator=C1 Old Comment=CAP_SMD New Comment=Valor
+Change Component Comment : Designator=C2 Old Comment=CAP_SMD New Comment=Valor
+Change Component Comment : Designator=C3 Old Comment=CAP_SMD New Comment=Valor
+Change Component Comment : Designator=C9 Old Comment=CAP_SMD New Comment=Valor
+Change component parameters: Designator = "C1" ("C1"); Footprint = "CAP0805R"; UniqueID = "\IFMNHSKE" ("\IFMNHSKE")
+Change component parameters: Designator = "C2" ("C2"); Footprint = "CAP0805R"; UniqueID = "\KXVPTWGU" ("\KXVPTWGU")
+Change component parameters: Designator = "C3" ("C3"); Footprint = "CAP0805R"; UniqueID = "\LJJQMDAR" ("\LJJQMDAR")
+Change component parameters: Designator = "C9" ("C9"); Footprint = "CAP0805R"; UniqueID = "\MRDAWRWH" ("\MRDAWRWH")
+Added Room: Name=SheetPainel
