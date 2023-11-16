@@ -21,9 +21,10 @@ void buttonATask(void * parameter) {
       }
       TickType_t releaseTime = xTaskGetTickCount();
       if ((releaseTime - pressTime) > LONG_PRESS_DELAY) {
-        // The button was held down for a long time
+        Serial.println(F("Long press"));
       } else {
         // The button was pressed and released quickly
+        Serial.println(F("Short press"));
       }
     }
     vTaskDelay(pdMS_TO_TICKS(10)); // Check button every 10ms
@@ -43,10 +44,32 @@ void interfaceTask(void * parameter) {
   }
 }
 
-
+void testroundrects() {
+  tft.fillScreen(ST77XX_BLACK);
+  uint16_t color = 100;
+  int i;
+  int t;
+  for(t = 0 ; t <= 4; t+=1) {
+    int x = 0;
+    int y = 0;
+    int w = tft.width()-2;
+    int h = tft.height()-2;
+    for(i = 0 ; i <= 16; i+=1) {
+      tft.drawRoundRect(x, y, w, h, 5, color);
+      x+=2;
+      y+=3;
+      w-=4;
+      h-=6;
+      color+=1100;
+    }
+    color+=100;
+  }
+}
 
 void loop() {
   vTaskDelay(1000 / portTICK_PERIOD_MS);
+  testroundrects();
+  
 }
 
 void setup() {
@@ -72,7 +95,6 @@ void setup() {
   uint16_t time = millis();
   tft.fillScreen(ST77XX_BLACK);
   time = millis() - time;
-
   Serial.println(time, DEC);
   delay(500);
 }
