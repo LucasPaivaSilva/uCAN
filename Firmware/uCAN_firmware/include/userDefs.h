@@ -29,10 +29,21 @@ enum menuState{
     MENU_SYSTEM_SETTINGS,
 };
 
-/* ---- Encoder Definitions ---- */
-#define PIN_ENCODER_A 17
-#define PIN_ENCODER_B 16
+enum buttonStateEnum{
+    BUTTON_SHORT_PRESS,
+    BUTTON_LONG_PRESS,
+    BUTTON_IDLE,
+};
 
-volatile int encoderStateA = HIGH;
-volatile int encoderStateB = HIGH;
-volatile int encoderPosition = 0;
+enum encoderStateRotationEnum{
+    ENCODER_LEFT,
+    ENCODER_RIGHT,
+    ENCODER_IDLE,
+};
+
+/* ---- Encoder Definitions ---- */
+#define pinA 21 // Connected to CLK on the encoder
+#define pinB 22 // Connected to DT on the encoder
+volatile int encoderPos = 0; // a counter for the dial
+volatile int lastEncoded = 0; // the previous encoded state
+volatile int callCounter = 0; // Counter for the number of function calls

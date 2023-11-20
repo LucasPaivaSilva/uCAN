@@ -2,7 +2,30 @@
 #include "userDefs.h"
 
 Adafruit_ST7789 tft = Adafruit_ST7789(PIN_TFT_CS, PIN_TFT_DC, PIN_TFT_RST);
+QueueHandle_t encoderQueue = xQueueCreate(1, sizeof(encoderStateRotationEnum));
+QueueHandle_t buttonQueue = xQueueCreate(1, sizeof(buttonStateEnum));
 
+
+void IRAM_ATTR updateEncoder() {
+  int MSB = digitalRead(pinA); //MSB = most significant bit
+  int LSB = digitalRead(pinB); //LSB = least significant bit
+
+  int encoded = (MSB << 1) | LSB; //converting the 2 pin value to single number
+  int sum  = (lastEncoded << 2) | encoded; //adding it to the previous encoded value
+
+  if(sum == 0b1101 || sum == 0b0100 || sum == 0b0010 || sum == 0b1011) callCounter ++;
+  if(sum == 0b1110 || sum == 0b0111 || sum == 0b0001 || sum == 0b1000) callCounter --;
+
+  if(callCounter >= 4) {
+    encoderPos++;
+    callCounter = 0;
+  } else if(callCounter <= -4) {
+    encoderPos--;
+    callCounter = 0;
+  }
+
+  lastEncoded = encoded; //store this value for next time
+}
 
 void IRAM_ATTR buttonAISR() {
   TickType_t now = xTaskGetTickCountFromISR();
@@ -12,7 +35,29 @@ void IRAM_ATTR buttonAISR() {
   lastInterruptTimeButtonA = now;
 }
 
+void encoderTask(void * parameter) {
+  encoderStateRotationEnum encoderState = ENCODER_IDLE;
+  for (;;) {
+    static int lastReportedPos = 0; // change management
+    if (lastReportedPos != encoderPos) {
+      Serial.println(encoderPos);
+      if (lastReportedPos > encoderPos) {
+        // Encoder rotated left
+        encoderState = ENCODER_LEFT;
+      } else {
+        // Encoder rotated right
+        encoderState = ENCODER_RIGHT;
+      }
+      lastReportedPos = encoderPos;
+      // Send encoder state to queue
+      xQueueSend(encoderQueue, &encoderState, portMAX_DELAY);
+    }
+    vTaskDelay(pdMS_TO_TICKS(5)); // Check encoder every 10ms
+  }
+}
+
 void buttonATask(void * parameter) {
+  buttonStateEnum buttonState = BUTTON_IDLE;
   for (;;) {
     if (buttonStateA == LOW) {
       TickType_t pressTime = xTaskGetTickCount();
@@ -22,9 +67,13 @@ void buttonATask(void * parameter) {
       TickType_t releaseTime = xTaskGetTickCount();
       if ((releaseTime - pressTime) > LONG_PRESS_DELAY) {
         Serial.println(F("Long press"));
+        buttonState = BUTTON_LONG_PRESS;
+        xQueueSend(buttonQueue, &buttonState, portMAX_DELAY);
       } else {
         // The button was pressed and released quickly
         Serial.println(F("Short press"));
+        buttonState = BUTTON_SHORT_PRESS;
+        xQueueSend(buttonQueue, &buttonState, portMAX_DELAY);
       }
     }
     vTaskDelay(pdMS_TO_TICKS(10)); // Check button every 10ms
@@ -38,38 +87,94 @@ void interfaceTask(void * parameter) {
   // Option 2  (2): show CAN messages 
   // Option 3  (3): send CAN messages
   // Option 4  (4): about page/random info
-  menuState systemState = MENU_MAIN;
-  for (;;) {
-    
-  }
-}
+  menuState currentScreen = MENU_MAIN;
+  encoderStateRotationEnum encoderState = ENCODER_IDLE;
+  buttonStateEnum buttonState = BUTTON_IDLE;
 
-void testroundrects() {
-  tft.fillScreen(ST77XX_BLACK);
-  uint16_t color = 100;
-  int i;
-  int t;
-  for(t = 0 ; t <= 4; t+=1) {
-    int x = 0;
-    int y = 0;
-    int w = tft.width()-2;
-    int h = tft.height()-2;
-    for(i = 0 ; i <= 16; i+=1) {
-      tft.drawRoundRect(x, y, w, h, 5, color);
-      x+=2;
-      y+=3;
-      w-=4;
-      h-=6;
-      color+=1100;
+  bool menuForceUpdate = false;
+  uint8_t menuMainSelectedOption = 1;
+  displayMainMenu(tft, menuMainSelectedOption);
+  for(;;) {
+    // Check encoder queue for new encoder state or new button state
+    if ((xQueueReceive(encoderQueue, &encoderState, 0) == pdTRUE) || menuForceUpdate || (xQueueReceive(buttonQueue, &buttonState, 0) == pdTRUE)) {
+      menuForceUpdate = false;
+      switch (currentScreen) {
+        // --------------------------------------------------------------------------- //
+        // Call function to display main menu
+        case MENU_MAIN:
+          if (encoderState == ENCODER_LEFT) {
+            if (menuMainSelectedOption > 1) {
+              menuMainSelectedOption--;
+            }
+          } else if (encoderState == ENCODER_RIGHT) {
+            if (menuMainSelectedOption < 4) {
+              menuMainSelectedOption++;
+            }
+          }
+          displayMainMenu(tft, menuMainSelectedOption);
+          if (buttonState == BUTTON_SHORT_PRESS) {
+            menuForceUpdate = true;
+            clearScreen(tft);
+            switch (menuMainSelectedOption) {
+              case 1:
+                currentScreen = MENU_CAN_DATA;
+                break;
+              case 2:
+                currentScreen = MENU_CAN_MESSAGES;
+                break;
+              case 3:
+                currentScreen = MENU_CAN_SENDMESSAGE;
+                break;
+              case 4:
+                currentScreen = MENU_SYSTEM_SETTINGS;
+                break;
+            }
+          }
+          break;
+        // --------------------------------------------------------------------------- //
+        // Call function to display CAN data
+        case MENU_CAN_DATA:
+          displayCANData(tft);
+          if (buttonState == BUTTON_LONG_PRESS) {
+            currentScreen = MENU_MAIN;
+            menuForceUpdate = true;
+            clearScreen(tft);
+          }
+          break;
+        // --------------------------------------------------------------------------- //
+        // Call function to display CAN messages
+        case MENU_CAN_MESSAGES:
+          if (buttonState == BUTTON_LONG_PRESS) {
+            currentScreen = MENU_MAIN;
+            menuForceUpdate = true;
+          }
+          break;
+        // --------------------------------------------------------------------------- //
+        // Call function to display CAN send message screen
+        case MENU_CAN_SENDMESSAGE:
+          if (buttonState == BUTTON_LONG_PRESS) {
+            currentScreen = MENU_MAIN;
+            menuForceUpdate = true;
+          }
+          break;
+        // --------------------------------------------------------------------------- //
+        // Call function to display system settings
+        case MENU_SYSTEM_SETTINGS:
+          if (buttonState == BUTTON_LONG_PRESS) {
+            currentScreen = MENU_MAIN;
+            menuForceUpdate = true;
+          }
+          break;
+      }
     }
-    color+=100;
+    encoderState = ENCODER_IDLE;
+    buttonState = BUTTON_IDLE;
+    vTaskDelay(pdMS_TO_TICKS(5)); // Delay to reduce CPU usage, adjust as needed
   }
 }
 
 void loop() {
-  vTaskDelay(1000 / portTICK_PERIOD_MS);
-  testroundrects();
-  
+  vTaskDelay(pdMS_TO_TICKS(1000));
 }
 
 void setup() {
@@ -90,7 +195,14 @@ void setup() {
   pinMode(PIN_BUTTON_A, INPUT_PULLUP);
   attachInterrupt(digitalPinToInterrupt(PIN_BUTTON_A), buttonAISR, CHANGE);
 
+  pinMode(pinA, INPUT);
+  pinMode(pinB, INPUT);
+  attachInterrupt(digitalPinToInterrupt(pinA), updateEncoder, CHANGE);
+  attachInterrupt(digitalPinToInterrupt(pinB), updateEncoder, CHANGE);
+
   xTaskCreate(buttonATask, "ButtonATask", 1000, NULL, 1, NULL);
+  xTaskCreate(encoderTask, "EncoderTask", 1000, NULL, 1, NULL);
+  xTaskCreate(interfaceTask, "InterfaceTask", 10000, NULL, 1, NULL);
 
   uint16_t time = millis();
   tft.fillScreen(ST77XX_BLACK);
