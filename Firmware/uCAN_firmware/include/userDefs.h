@@ -1,14 +1,18 @@
 
-
 /* ---- PIN DEFINITIONS ---- */
 // PIN DEFINITIONS FOR THE CAN BUS
 
 // PIN DEFINITIONS FOR THE LCD
-#define PIN_TFT_CS         4         // Chip select control pin
+#define PIN_TFT_CS         22         // Chip select control pin
 #define PIN_TFT_RST        -1        // Display Reset pin (-1 if unused/tied to microcontroller reset)
-#define PIN_TFT_DC         2         // Data Command control pin
+#define PIN_TFT_DC         21         // Data Command control pin
 #define TFT_DISPLAY_WIDTH  240
 #define TFT_DISPLAY_HEIGHT 320
+
+/* ---- CAN Definitions ---- */
+#define PIN_CAN_RX GPIO_NUM_16
+#define PIN_CAN_TX GPIO_NUM_17
+
 
 /* ---- Button Definitions ---- */
 
@@ -42,8 +46,8 @@ enum encoderStateRotationEnum{
 };
 
 /* ---- Encoder Definitions ---- */
-#define pinA 21 // Connected to CLK on the encoder
-#define pinB 22 // Connected to DT on the encoder
+#define pinA 13 // Connected to CLK on the encoder
+#define pinB 14 // Connected to DT on the encoder
 volatile int encoderPos = 0; // a counter for the dial
-volatile int lastEncoded = 0; // the previous encoded state
-volatile int callCounter = 0; // Counter for the number of function calls
+volatile int encoderLastEncoded = 0; // the previous encoded state
+volatile int encoderCallCounter = 0; // Counter for the number of function calls
